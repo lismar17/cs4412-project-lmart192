@@ -12,3 +12,11 @@ enables companies to establish a strategic domain impact. Using
 data gathered by Atharva Soundankar, this research utilizes
 association rules and text mining to discover possible connection
 between location and genre of song streamed.
+
+Update M2:
+Using Jupyter Notebook (ACCESS THE dataM2(2) VERSION), data has been processed using preprocessing, and transformed for application of association rules.
+Contents include:
+1. Data loading and Overview
+2. Exploratory Data Analysis with Visualizations
+3. Data Transformation and Applying the Mining Technique
+4. Preliminary Findings with Interpretation
