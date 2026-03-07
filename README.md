@@ -14,7 +14,7 @@ association rules and text mining to discover possible connection
 between location and genre of song streamed.
 
 Update M2:
-Using Jupyter Notebook (ACCESS THE dataM2(2) VERSION), data has been processed using preprocessing, and transformed for application of association rules.
+Using Jupyter Notebook (ACCESS THE dataM2(2) VERSION), data has been processed using preprocessing, displayed with EDA, and transformed for application of association rules.
 Contents include:
 1. Data loading and Overview
 2. Exploratory Data Analysis with Visualizations
