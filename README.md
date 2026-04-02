@@ -58,3 +58,6 @@ Binned engagement features
 Important changes to code from M2 feedback:  
 Threshold was changed from 1 to 0.6, 
 Manual bins were replaced with quantile bins.
+
+Update M3:
+Building off of existing work in Jupyter notebook and reflecting off of feedback from M2, as previously mentioned, M3 includes the use of K-Means cluster averages, greater use of histograms, and cluster and heat  map visuals.
