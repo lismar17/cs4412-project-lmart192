@@ -61,3 +61,12 @@ Manual bins were replaced with quantile bins.
 
 Update M3:
 Building off of existing work in Jupyter notebook and reflecting off of feedback from M2, as previously mentioned, M3 includes the use of K-Means cluster averages, greater use of histograms, and cluster and heat  map visuals.
+M3 improves on M2 by validating descriptive trends with clustering, PCA, decision trees, and refined rule mining. The findings now move beyond chart-level observations into explainable listener personas and platform behaviors, while still identifying open questions related to causality, regional influence, and external cultural factors with external academic articles.
+K-Means Clustering created four clusters which were interpreted as the following categories: Loyal Repeat Listeners, Heavy Explorers, Casual Selective Users, and Light Replay Users. This allowed for easier identification of repeated user behavior.
+
+The academic articles used for the Geographical Context section are cited below:
+
+Matos, Michaelangelo. "electronic dance music". Encyclopedia Britannica, 1 Jan. 2026, https://www.britannica.com/art/electronic-dance-music. Accessed 2 April 2026.
+
+Anderson, Crystal S, 'Global South Korea and the K-Pop Phenomenon' (28 Aug. 2018), in Diedre Shauna Lynch (ed.), Oxford Research Encyclopedia of Literature (New York, NY, online edn, Oxford Academic, 31 Aug. 2016 - ), https://doi.org/10.1093/acrefore/9780190201098.013.770, accessed 3 Apr. 2026.
+
