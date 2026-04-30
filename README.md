@@ -70,3 +70,24 @@ Matos, Michaelangelo. "electronic dance music". Encyclopedia Britannica, 1 Jan. 
 
 Anderson, Crystal S, 'Global South Korea and the K-Pop Phenomenon' (28 Aug. 2018), in Diedre Shauna Lynch (ed.), Oxford Research Encyclopedia of Literature (New York, NY, online edn, Oxford Academic, 31 Aug. 2016 - ), https://doi.org/10.1093/acrefore/9780190201098.013.770, accessed 3 Apr. 2026.
 
+Update M4:
+Addressed feedback with association and apriori rules returning empty cells: Association rules were not loading because "lift" was changed to "confidence", so the code could not find waht it was referencing. As lift is what holds the values, mistakenly using confidence prevented the data from appearing. After M3, I could not find the issue until requesting help from the tutoring center in reviewing my code.
+
+Addressed feedback with undefined x and y for decision trees: 
+X = df[[
+    "Minutes Streamed Per Day",
+    "Number of Songs Liked",
+    "Discover Weekly Engagement (%)",
+    "Repeat Song Rate (%)"
+]]
+
+y = df["Behavior Cluster"]
+
+Justifying K=4:
+For the silhouette score, scores are low, and thus have a weak separation of clusters, remaining between ~0.17 and 0.22. While the highest score exists at k=8, the weak separation below 0.25 indicates that the dataset does not form strongly separated clusters. Along with this, higher k values risk over-segmentation, where clusters become too granular and lose meaningful interpretation. In comparison, a 4-cluster solution produces distinct and interpretable listener segments. It is optimal as it offers a balance between interpretation and clustering quality.
+
+With the elbow plot, we see a sharp drop from 2 to 4, with the points after that dropping at a slower rate. Therefore, 4 can be further argued to be a clear transition point, with five as a reasonable alternative, as it is only diminishing returns afterward.
+
+Cluster characterizations printed with the code in cell 165 so cluster characterizations are grounded in actual numbers.
+
+Cross-tabulation inserted in Geographical Context section.
