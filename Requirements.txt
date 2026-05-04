@@ -1,0 +1,4 @@
+Requirements:
+Anaconda Prompt
+Jupyter Notebook
+Excel Spreadsheet of Global Music Streaming Listener Preferences by Atharva Soundankar
